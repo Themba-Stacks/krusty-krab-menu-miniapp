@@ -1,0 +1,6 @@
+<view class="burger">
+  <view >
+    <image mode="aspectFit" src="{{pic}}"/>
+  </view>
+  <slot></slot>
+</view>

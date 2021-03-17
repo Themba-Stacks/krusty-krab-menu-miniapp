@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "nav-head": "/components/nav-head/nav-head",
+    "burger": "/components/burger/burger",
+    "des": "/components/description/description"
+  }
+}

@@ -1,0 +1,15 @@
+.headingText{
+  display: flex;
+  justify-content: center;
+  color: green;
+  font-size: 34rpx;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+
+.btn-area{
+  display: flex;
+  margin: 24rpx;
+  justify-content: space-evenly;
+  padding: 10rpx;
+}

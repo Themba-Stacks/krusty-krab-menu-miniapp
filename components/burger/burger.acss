@@ -1,0 +1,7 @@
+.burger{
+  background-color: #c1c2dcff;
+  padding-left: 16rpx;
+  padding-right: 16rpx;
+  border-radius: 10px;
+  margin: 20px;
+}

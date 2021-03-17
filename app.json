@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "pages/homepage/homepage"
+  ],
+  "window": {
+    "defaultTitle": "The Krusty Krab"
+  }
+}
