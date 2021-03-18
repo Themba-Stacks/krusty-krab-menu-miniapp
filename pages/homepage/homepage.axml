@@ -1,8 +1,10 @@
 <view class="home">
   <nav-head></nav-head>
-  <view a:for="{{burger}}">
-    <burger pic={{item.img}}>
-      <des title={{item.title}} calories={{item.calories}} ingredients={{item.ingredients}}></des>
-    </burger>
+  <view>
+    <view a:for="{{burger}}">
+      <burger pic={{item.img}}>
+        <des title={{item.title}} calories={{item.calories}} ingredients={{item.ingredients}}></des>
+      </burger>
+    </view>
   </view>
 </view>

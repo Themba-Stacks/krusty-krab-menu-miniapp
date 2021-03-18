@@ -1,5 +1,5 @@
 <view>
-  <view>{{title}}</view>
-  <view>{{calories}}</view>
-  <view>{{ingredients}}</view>
+  <view class="title">{{title}}</view>
+  <view class="kcals">{{calories}}</view>
+  <view class="ingred">{{ingredients}}</view>
 </view>

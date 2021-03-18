@@ -1,0 +1,15 @@
+.title{
+  font-size: 60rpx;
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+}
+.kcals{
+  font-size: 36rpx;
+  padding-bottom: 16rpx;
+  font-family: Roboto;
+}
+.ingred{
+  font-size: 28rpx;
+  padding-bottom: 16rpx;
+  font-family: Roboto;
+}

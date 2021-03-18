@@ -1,19 +1,19 @@
 Page({
   data: {
-    burger:[{ img: '/assets/pictures/spongebob_PNG8.png',
-    title: 'Spongebob',
-    calories: '230KCal',
-    ingredients: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium'
+    burger:[{ img: '/assets/pictures/krabby_patty.png',
+    title: 'Krabby Patty',
+    calories: '124KCal',
+    ingredients: 'patty pickles lettuce tomatoes cheese ketchup mustard and onions'
   },
-{ img: '/assets/pictures/spongebob_PNG8.png',
-    title: 'Spongebob',
+{ img: '/assets/pictures/Double_Krabby_patty.png',
+    title: 'Double Krabby Patty',
     calories: '230KCal',
-    ingredients: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium'
+    ingredients: 'two patties pickles lettuce tomatoes cheese ketchup mustard and onions'
   },
-{ img: '/assets/pictures/spongebob_PNG8.png',
-    title: 'Spongebob',
-    calories: '230KCal',
-    ingredients: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium'
+{ img: '/assets/pictures/tripple_krabby_patty.png',
+    title: 'Tripple Krabby Patty',
+    calories: '368KCal',
+    ingredients: 'three patties pickles lettuce tomatoes cheese ketchup mustard and onions'
   }]
    },
   onLoad() {},

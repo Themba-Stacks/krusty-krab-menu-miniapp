@@ -1,3 +1,14 @@
+@font-face{
+  font-family: 'Ranchers';
+  src: url('/assets/fonts/Ranchers/Ranchers-Regular.ttf');
+}
+@font-face{
+  font-family: 'Roboto';
+  src: url('/assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
 page {
   background: #f7f7f7;
+  font-family: 'Ranchers';
+  color: #04185d;
 }

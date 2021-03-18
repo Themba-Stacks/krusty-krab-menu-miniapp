@@ -1,8 +1,8 @@
 <view>
   <text class="headingText">Gally Grub</text>
   <view class="btn-area">
-    <navigator url="/pages/burger/burger" class="nav">Burgers</navigator>
-    <navigator url="/pages/meal/meal" class="nav">Meals</navigator>
-    <navigator url="/pages/sides/sides" class="nav">Sides</navigator>
+    <text>Burgers</text>
+    <text>Meals</text>
+    <text>Sides</text>
   </view>
 </view>

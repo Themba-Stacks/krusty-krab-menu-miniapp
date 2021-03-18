@@ -1,8 +1,7 @@
 .headingText{
   display: flex;
   justify-content: center;
-  color: green;
-  font-size: 34rpx;
+  font-size: 68rpx;
   padding: 10rpx;
   margin: 10rpx;
 }
