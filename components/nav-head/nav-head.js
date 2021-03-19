@@ -1,9 +1,16 @@
 Component({
   mixins: [],
   data: {},
-  props: {},
+  props: {
+    onPageChangeView: () => {}
+  },
   didMount() {},
   didUpdate() {},
   didUnmount() {},
-  methods: {},
+  methods: {
+    changeView(event) {
+      let info = event.target.id;
+      this.props.onPageChangeView(info);
+    }
+  },
 });

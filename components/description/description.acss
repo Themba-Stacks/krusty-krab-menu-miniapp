@@ -1,3 +1,6 @@
+.details{
+  margin: 10rpx
+}
 .title{
   font-size: 60rpx;
   padding-top: 26rpx;

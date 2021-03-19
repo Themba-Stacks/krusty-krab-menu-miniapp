@@ -1,8 +1,8 @@
 <view>
   <text class="headingText">Gally Grub</text>
-  <view class="btn-area">
-    <text>Burgers</text>
-    <text>Meals</text>
-    <text>Sides</text>
+  <view class="btn-area" onTap="changeView">
+    <text id="burgers">Burgers</text>
+    <text id="meals">Meals</text>
+    <text id="sides">Sides</text>
   </view>
 </view>
