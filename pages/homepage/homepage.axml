@@ -1,20 +1,22 @@
 <view class="home">
-  <nav-head onPageChangeView="onPageChangeView"></nav-head>
+ <view class="bottom-spacer">
+    <nav-head onPageChangeView="onPageChangeView"></nav-head>
 
-  <view a:if="{{burgerView}}" class="bgr">
-    <view a:for="{{burger}}">
-      <burger pic={{item.img}} >
-        <des title={{item.title}} calories={{item.calories}} ingredients={{item.ingredients}}></des>
-      </burger>
+    <view a:if="{{burgerView}}" class="bgr">
+      <view a:for="{{burger}}">
+        <burger pic={{item.img}} >
+          <des title={{item.title}} calories={{item.calories}} ingredients={{item.ingredients}}></des>
+        </burger>
+      </view>
     </view>
-  </view>
 
-  <view a:if="{{mealView}}" class="ml">
-    meal view
-  </view>
+    <view a:if="{{mealView}}" class="ml">
+      meal view
+    </view>
 
-  <view a:if="{{sideView}}" class="sd">
-    sides
+    <view a:if="{{sideView}}" class="sd">
+      sides
+    </view>
   </view>
   <basket></basket>
 </view>

@@ -1,8 +1,14 @@
 <view>
   <text class="headingText">Gally Grub</text>
   <view class="btn-area" onTap="changeView">
-    <text id="burgers">Burgers</text>
-    <text id="meals">Meals</text>
-    <text id="sides">Sides</text>
+    <view class="{{burgerHighLight}}">
+      <text  id="burgers" onTap="isHighLight">Burgers</text>
+    </view>
+    <view class="{{mealHighLight}}">
+      <text class="navText" id="meals" onTap="isHighLight">Meals</text>
+    </view>
+    <view class="{{sideHighLight}}">
+      <text class="navText" id="sides" onTap="isHighLight">Sides</text>
+    </view>
   </view>
 </view>

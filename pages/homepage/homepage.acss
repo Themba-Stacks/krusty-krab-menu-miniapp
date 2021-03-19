@@ -1,4 +1,11 @@
 page {
   background-color: #f3f1f1ff;
-  padding: 20rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.bottom-spacer{
+  padding-bottom: 20rpx
+}
+.bgr{
+  padding: 5rpx;
 }

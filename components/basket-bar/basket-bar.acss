@@ -1,0 +1,19 @@
+.cashRegImage{
+  width:50rpx;
+  height:60rpx;
+  margin-bottom: 8rpx;
+}
+.cashReg{
+  position: fixed;
+  /*right: 34rpx; */
+  top:95%;
+  width: 90%;
+  height: 60rpx;
+  background-color: #f3f1f1ff;
+}
+
+.div{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10rpx
+}

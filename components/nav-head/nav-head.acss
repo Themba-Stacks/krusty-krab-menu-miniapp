@@ -5,10 +5,19 @@
   padding: 10rpx;
   margin: 10rpx;
 }
-
+/* .navText{
+  padding: 10rpx;
+  margin: 16rpx;
+} */
 .btn-area{
   display: flex;
   margin: 24rpx;
   justify-content: space-evenly;
   padding: 10rpx;
+}
+.highLight{
+  /* background-color: gray; */
+  box-shadow: 0 4px 2px -2px  #d1f551;
+  padding: 10rpx;
+  margin: 8rpx;
 }
