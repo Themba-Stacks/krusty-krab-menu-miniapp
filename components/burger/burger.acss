@@ -1,8 +1,12 @@
-.burger{
+.burger-class{
   background-color: #c1c2dcff;
   padding-left: 16rpx;
   padding-right: 16rpx;
-  border-radius: 10px;
-  margin: 20px;
+  padding-top: 34rpx;
+  margin-bottom: 40rpx;
+  border-radius: 10rpx;
 }
-
+.image-class{
+  display: flex;
+  justify-content: center;
+}
